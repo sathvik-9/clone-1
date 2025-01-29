@@ -1,0 +1,24 @@
+<div class="suggestions-2">
+        <div class="sugg-ride">
+            <div class="sugg-ride-text">
+                <h4>Ride</h4>
+                <p>Go anywhere with Uber, Request a ride, hop in, and go.</p>
+                <button>Details</button>
+            </div>
+            <div class="sugg-ride-img"></div>
+        </div>
+        <div class="sugg-courier">
+            <div class="sugg-courier-text">
+                <h4>Courier</h4>
+                <p>Go anywhere with Uber, Request a ride, hop in, and go.</p>
+                <button>Details</button>
+            </div>
+        </div>
+        <div class="sugg-reserve">
+            <div class="sugg-reserve-text">
+                <h4>Reserve</h4>
+                <p>Go anywhere with Uber, Request a ride, hop in, and go.</p>
+                <button>Details</button>
+            </div>
+        </div>
+    </div>
