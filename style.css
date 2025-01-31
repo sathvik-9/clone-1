@@ -8,7 +8,6 @@
     background-color:black;
     color:white;
     display:flex;
-    justify-content:space-evenly;
     align-items:center;
 }
 
@@ -17,6 +16,8 @@
 }
 
 .nav-logo{
+    margin-left: 70px;
+    width: 10%;
     cursor:pointer;
     font-size:1.5rem;
     font-weight: 300;
@@ -27,18 +28,52 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .box a:hover{
+    
     cursor: pointer;
-    border: 0.7em solid gray;
+    border-radius: 8%;
+    border: 1px solid gray;
     border-radius: 50%;
 }
+
+.nav-ops{
+    margin-left: -50px;
+    justify-content:left;
+    font-weight:300;
+}
+
+.nav-ops select{
+    height:20px;
+    margin-left:10px;
+    width:70px;
+    font-size:1rem;
+    color:white;
+    background-color:black;
+    border:1px solid black;
+}
+
+.nav-ops ul{
+    justify-content:left;
+}
+
 .nav-end{
+    margin-left: 580px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight:500;
 }
 
+.nav-end a{
+    margin-right: 20px;
+}
+
+.signup-button{
+    height:30px;
+    background-color:white;
+    color:black;
+}
+
 .nav-down{
     margin-top:15px;
-    margin-left:130px;
+    margin-left:70px;
     height: 40px;
     display:flex;
     justify-content:space-between;
@@ -60,6 +95,7 @@
 }
 
 .nav-ride-ops{
+    margin-left:200px;
     width:50%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:gray;
@@ -240,7 +276,7 @@ p{
 }
 
 .sugg-text h4{
-    margin-left:30px;
+    margin-left:20px;
     margin-top:30px;
     align-items:center;
     justify-content:space-evenly;
@@ -248,7 +284,7 @@ p{
 
 .sugg-text p{
     margin-top:15px;
-    margin-left:30px;
+    margin-left:20px;
     font-size:0.75rem;
     width:120%;
 }
@@ -256,7 +292,7 @@ p{
 .sugg-text button{
     position:relative;
     margin-top:12px;
-    margin-left:30px;
+    margin-left:20px;
     font-size:0.8rem;
     background-color: white;
     font-weight:500;
@@ -498,11 +534,58 @@ p{
 
 
 
+
+
+
+/*section-5*/
+
+
+
+
+
+
+.section-5{
+    padding:56px 50px;
+    margin-bottom:80px;
+    height:340px;
+}
+
+.section5-title{
+    margin-left:50px;
+    margin-bottom: 60px;
+}
+
+.section5-questions{
+    margin-left:50px;
+}
+
+.section5-question{
+    cursor: pointer;
+    width:98%;
+    display: flex;
+    border-bottom:1px solid rgb(245, 245, 245);
+    margin-right:10px;
+}
+
+.section5-question p{
+    font-weight:700;
+    width:70%;
+    margin-left:25px;
+    margin-top:18px;
+    margin-bottom:20px;
+}
+
+.section5-question i{
+    margin-left:280px;
+    margin-top:45px;
+}
+
+
 /*section-6*/
 
 
 .section-6{
-    padding:56px 66px;
+    padding:56px 50px;
     margin-top:80px;
     margin-bottom:80px;
     height:400px;
@@ -601,9 +684,10 @@ p{
 .section-7{
     color:grey;
     margin-left:80px;
-    height:300px;
+    height:210px;
     padding: 56px 32px;
     width:80%;
+    margin-bottom:30px;
 }
 
 .signup-section{
@@ -648,7 +732,160 @@ p{
 /*footer*/
 
 .footer-section{
+    padding:106px 110px;
     background-color:black;
     color:white;
-    height:1000px;
+    height:750px;
+}
+
+.footer-logo{
+    padding-bottom: 50px;
+    margin-top:30px;
+    height:10px;
+    color: white;
+}
+
+.footer-logo a:link{
+    font-weight:80;
+    width: 75%;
+    font-size:1.6rem;
+    color:white;
+    text-decoration: none;
+}
+
+.footer-help{
+    width:142px;
+    height:70px;
+    font-weight:10;
+    font-size:0.86rem;
+    margin-bottom:30px;
+}
+
+.footer-help:hover{
+    cursor:pointer;
+    border-bottom: 1.5px solid white;
+}
+
+.footer-ops{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+    margin-left: -150px;
+}
+
+.footer-ops h4{
+    font-size:1.1rem;
+}
+
+.footer-ops ul{
+    list-style-type: none;
+}
+
+.footer-ops li{
+    font-size:0.8rem;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.footer-ops a:hover{
+    cursor:pointer;
+    opacity:70%;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 80px;
+    position: relative;
+}
+
+.icon-box{
+    height:50px;
+    width:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:60px;
+}
+
+.icon-box:hover{
+    background-color:rgb(25, 25, 25);
+    border-radius : 20%;
+}
+
+.footer-links-social{
+    width:80%;
+    display:flex;
+}
+
+.footer-links-location{
+    width: 30% ;
+}
+
+.footer-links-location button{
+    height:40px;
+    width:125px;
+    cursor:pointer;
+    margin-right:20px;
+    font-size: 1rem;
+    background-color:black;
+    color:white;
+    border:1px solid black;
+    border-radius: 8%;
+    font-size:1.05rem;
+    font-weight:300;
+}
+
+.footer-links-location button:hover{
+    background-color:rgb(25, 25, 25);
+}
+
+
+
+.footer-app-store{
+    margin-top:60px;
+}
+
+
+.footer-app-store img{
+    cursor: pointer;
+    margin-right:20px;
+    height:42px;
+}
+
+
+
+
+.footer-terms{
+    display: flex;
+}
+
+.footer-terms-regist{
+    font-size:0.8rem;
+    color:grey;
+    width:45%;
+}
+
+.footer-terms-links{
+    cursor:pointer;
+    width:54%;
+}
+
+.footer-terms-links ul{
+    display:flex;
+    justify-content: end;
+    align-items:center;
+    list-style-type: none;
+}
+
+.footer-terms-links li{
+    color:grey;
+    font-size:0.75rem;
+    margin-top:40px;
+    margin-right:30px;
+}
+
+.footer-terms-links li:hover{
+    color:rgb(105, 104, 104);
+    opacity:70%;
 }
